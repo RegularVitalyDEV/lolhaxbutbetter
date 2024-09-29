@@ -78,7 +78,7 @@ local EntityTable = {
         ["JeffTheKiller"] = "Jeff The Killer"
     },
     ["NotifyMessage"] = {
-        ["GloombatSwarm"] = "Gloombats in next room!"
+        ["GloombatSwarm"] = "[Vitaly´s Hax] Gloombats in next room!"
     },
     ["Avoid"] = {
         "RushMoving",
@@ -316,12 +316,12 @@ local Toggles = getgenv().Linoria.Toggles
 local ESPLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/mstudio45/MS-ESP/refs/heads/main/source.lua"))()
 
 local Window = Library:CreateWindow({
-	Title = "mspaint v2",
+	Title = "Vitaly´s Hax [v1]",
 	Center = true,
 	AutoShow = true,
 	Resizable = true,
     NotifySide = "Right",
-	ShowCustomCursor = true,
+	ShowCustomCursor = false,
 	TabPadding = 2,
 	MenuFadeTime = 0
 })
